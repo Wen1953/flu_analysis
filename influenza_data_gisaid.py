@@ -15,7 +15,7 @@ seqkit rmdup filtrado.fasta > secuencias_gisaid.fasta
 rm filtrado.fasta codigos.txt
 
 #3. Correr nextclade para NA, cambiar la base de datos
-nextclade run --input-dataset /home/veronica/Programas/database_nextclade/H1N1_NA_MW626056 --output-csv nextclade.csv secuencias_gisaid.fasta
+nextclade run --input-dataset /home/ruta/database_nextclade/H1N1_NA_MW626056 --output-csv nextclade.csv secuencias_gisaid.fasta
 
 #4. Concatenar los datos de metadata.csv y nextclade.csv (solo para NA)
 
