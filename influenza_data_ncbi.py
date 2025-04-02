@@ -43,7 +43,7 @@ seqkit rmdup filtrado.fasta > secuencias_ncbi.fasta
 rm filtrado.fasta codigos.txt
 
 #Correr nextclade para NA, cambiar la base de datos
-nextclade run --input-dataset /home/veronica/Programas/database_nextclade/H1N1_NA_MW626056 --output-csv nextclade.csv secuencias_ncbi.fasta
+nextclade run --input-dataset /home/ruta/database_nextclade/H1N1_NA_MW626056 --output-csv nextclade.csv secuencias_ncbi.fasta
 
 
 
